@@ -17,8 +17,6 @@
   <meta name="twitter:image" content="Assets/logo-large.png">
   <meta name="twitter:image:alt" content="Sparrow Funds">
   <style type="text/css">
-    @import url('https://fonts.googleapis.com/css?family=Lato:400');
-    @import url('https://fonts.googleapis.com/css?family=Lusitana:400,700');
     @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
     .x {
@@ -953,6 +951,9 @@
       background-color: rgb(255, 255, 255);
     }
   </style>
+  
+  <link rel="stylesheet" type="text/css" href="Assets/util.css">
+  <link rel="stylesheet" type="text/css" href="Assets/main.css">
 </head>
 
 <body class="x  x-fonts-lato">
@@ -1009,7 +1010,7 @@
                       class="x-el x-el-div px_-letter-spacing-1px px_-text-transform-uppercase px_-box-sizing-border-box px_-flex-grow-1 px_-flex-shrink-1 px_-flex-basis-100P px_-p-0_10px_0 px_-max-width-100P px_-ff-_Lato___arial__sans-serif px_-fs-14 _smpx_-p-0_20px_0 _mdpx_-flex-basis-0P _mdpx_-max-width-none _mdpx_-fs-14 _lgpx_-fs-14 x-d-ux">
                       <h5 data-ux="Heading" data-aid="FOOTER_POWERED_BY_RENDERED" data-route="poweredBy"
                         class="x-el x-el-h5 px_-letter-spacing-normal px_-text-transform-none px_-overflow-wrap-break-word px_-word-wrap-break-word px_-word-break-break-word px_-fs-14 px_-c-rgb119__119__119 px_-fw-400 px_-lh-1p25 px_-ml-0 px_-mr-0 px_-mt-20px px_-mb-0 px_-ff-_Lusitana___Georgia__serif _mdpx_-text-align-right _mdpx_-mt-0 _mdpx_-fs-14 _lgpx_-fs-14 x-d-ux x-d-aid x-d-route">
-                        <a href="login.html">Investor Login</a></h5>
+                        </h5>
                     </div>
                   </div>
                 </div>
@@ -1028,23 +1029,35 @@
                     class="x-el x-el-div px_-letter-spacing-1px px_-text-transform-uppercase px_-h-100P px_-w-100P px_-position-absolute px_-top-0 px_-left-0 px_-right-0 px_-bottom-0 px_-d-flex px_-ff-_Lato___arial__sans-serif px_-fs-14 _mdpx_-fs-14 _lgpx_-fs-14 x-d-ux">
                     <div id="guacBg2883" data-guac-image="loaded" data-ux="Background"
                       data-aid="BACKGROUND_IMAGE_RENDERED"
-                      class="x-el x-el-div px_-letter-spacing-1px px_-text-transform-uppercase px_-background-size-cover px_-background-position-center px_-w-100P px_-min-height-300px px_-bi-url___img1pwsimgpcom_isteam_stock_39903___cr_t_1p87P25_l_-24p77P25_w_149p54P25_h_76p92P25_rs_w_50_h_50_cg_true_m_cr_w_50_h_50_a_cc_ px_-ff-_Lato___arial__sans-serif px_-fs-14 _mdpx_-min-height-50vh _mdpx_-fs-14 _lgpx_-fs-14 x-d-guac-image x-d-ux x-d-aid"
-                      style="background-image: url(&quot;Assets/background.jpg&quot;);">
-                    </div>
-                  </div>
-                  <div data-ux="Block"
-                    class="x-el x-el-div px_-letter-spacing-1px px_-text-transform-uppercase px_-d-flex px_-align-items-stretch px_-position-relative px_-ff-_Lato___arial__sans-serif px_-fs-14 _mdpx_-flex-grow-1 _mdpx_-fs-14 _lgpx_-fs-14 x-d-ux">
-                    <div data-ux="Block" data-herobg-test="alt"
-                      class="x-el x-el-div px_-letter-spacing-1px px_-text-transform-uppercase px_-d-flex px_-flex-direction-column px_-min-height-300px px_-w-100P px_-bc-transparent px_-ff-_Lato___arial__sans-serif px_-fs-14 _mdpx_-min-height-75vh _mdpx_-flex-grow-1 _mdpx_-fs-14 _lgpx_-fs-14 x-d-ux x-d-herobg-test">
-                      <div data-ux="Block" id="header_parallax2884"
-                        class="x-el x-el-div px_-letter-spacing-1px px_-text-transform-uppercase px_-d-flex px_-flex-grow-1 px_-flex-shrink-0 px_-flex-basis-auto px_-ff-_Lato___arial__sans-serif px_-fs-14 _mdpx_-fs-14 _lgpx_-fs-14 x-d-ux"
-                        style="transform: translate3d(0px, 0px, 0px); opacity: 1;">
-                        <div>
-                          <div id="bootstrap-2885-t"><span data-ux="Element"
-                              class="x-el x-el-span px_-letter-spacing-1px px_-text-transform-uppercase px_-ff-_Lato___arial__sans-serif px_-fs-14 _mdpx_-fs-14 _lgpx_-fs-14 x-d-ux"></span>
+                      class="x-el x-el-div px_-letter-spacing-1px px_-text-transform-uppercase px_-background-size-cover px_-background-position-center px_-w-100P px_-min-height-300px px_-bi-url___img1pwsimgpcom_isteam_stock_39903___cr_t_1p87P25_l_-24p77P25_w_149p54P25_h_76p92P25_rs_w_50_h_50_cg_true_m_cr_w_50_h_50_a_cc_ px_-ff-_Lato___arial__sans-serif px_-fs-14 _mdpx_-min-height-50vh _mdpx_-fs-14 _lgpx_-fs-14 x-d-guac-image x-d-ux x-d-aid">
+                      
+
+                        <div class="container-login100">
+                          <div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-50">
+                              <form class="login100-form validate-form">
+                                  <span class="login100-form-title p-b-33">
+                                      Account Login
+                                  </span>
+                                  <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+                                      <input class="input100" type="text" name="email" placeholder="Email">
+                                      <span class="focus-input100-1"></span>
+                                      <span class="focus-input100-2"></span>
+                                  </div>
+                                  <div class="wrap-input100 rs1 validate-input" data-validate="Password is required">
+                                      <input class="input100" type="password" name="pass" placeholder="Password">
+                                      <span class="focus-input100-1"></span>
+                                      <span class="focus-input100-2"></span>
+                                  </div>
+                                  <div class="container-login100-form-btn m-t-20">
+                                      <button class="login100-form-btn">
+                                          Sign in
+                                      </button>
+                                  </div>
+                              </form>
                           </div>
-                        </div>
                       </div>
+
+
                     </div>
                   </div>
                 </div>
@@ -1081,7 +1094,7 @@
                   class="x-el x-el-div px_-letter-spacing-1px px_-text-transform-uppercase px_-box-sizing-border-box px_-flex-grow-1 px_-flex-shrink-1 px_-flex-basis-100P px_-p-0 px_-max-width-100P px_-ff-_Lato___arial__sans-serif px_-fs-14 _mdpx_-flex-basis-0P _mdpx_-max-width-none _mdpx_-fs-14 _lgpx_-fs-14 x-d-ux">
                   <h5 data-ux="Heading" data-aid="FOOTER_POWERED_BY_RENDERED" data-route="poweredBy"
                     class="x-el x-el-h5 px_-letter-spacing-normal px_-text-transform-none px_-overflow-wrap-break-word px_-word-wrap-break-word px_-word-break-break-word px_-fs-14 px_-c-rgb119__119__119 px_-fw-400 px_-lh-1p25 px_-ml-0 px_-mr-0 px_-mt-20px px_-mb-0 px_-ff-_Lusitana___Georgia__serif _mdpx_-text-align-right _mdpx_-mt-0 _mdpx_-fs-14 _lgpx_-fs-14 x-d-ux x-d-aid x-d-route">
-                    <span>info@sparrowfunds.com</span></h5>
+                    <span>17 Savile Row, Mayfair, W1S 3PN, UK<br>info@sparrowfunds.com</span></h5>
                 </div>
               </div>
             </div>
